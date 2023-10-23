@@ -57,7 +57,7 @@
                         <img src="images/logo.svg" alt="logo" />
                     </a>
 
-                    <a href="#" class="custom-btn">Get the app</a>
+                    <a href="#" class="custom-btn get-app-btn">Get the app</a>
                 </nav>
             </div>
         </header>
@@ -102,14 +102,16 @@
 
             <!-- How Works Area -->
             <section class="how-work">
-                <div class="container">
-                    <div class="section-heading">
-                        <h2>How it works</h2>
-                    </div>
+                <div class="section-heading">
+                    <h2>How it works</h2>
+                </div>
 
-                    <div class="how-work__items">
+                <div class="how-work__items swiper mySwiper">
+                    <div class="swiper-wrapper">
                         <!-- Single Item -->
-                        <div class="how-work__item how-work__item--signup">
+                        <div
+                            class="swiper-slide how-work__item how-work__item--signup"
+                        >
                             <img
                                 class="how-work__card"
                                 src="images/work-card-signup.png"
@@ -134,7 +136,9 @@
                         <!-- Single Item -->
 
                         <!-- Single Item -->
-                        <div class="how-work__item how-work__item--space">
+                        <div
+                            class="swiper-slide how-work__item how-work__item--space"
+                        >
                             <img
                                 class="how-work__card"
                                 src="images/work-card-space.png"
@@ -162,7 +166,9 @@
                         <!-- Single Item -->
 
                         <!-- Single Item -->
-                        <div class="how-work__item how-work__item--pick">
+                        <div
+                            class="swiper-slide how-work__item how-work__item--pick"
+                        >
                             <img
                                 class="how-work__card"
                                 src="images/work-card-pick.png"
@@ -187,7 +193,9 @@
                         <!-- Single Item -->
 
                         <!-- Single Item -->
-                        <div class="how-work__item how-work__item--plan">
+                        <div
+                            class="swiper-slide how-work__item how-work__item--plan"
+                        >
                             <img
                                 class="how-work__card"
                                 src="images/work-card-plan.png"
@@ -214,9 +222,10 @@
                         </div>
                         <!-- Single Item -->
                     </div>
-
-                    <a href="#" class="custom-btn mx-auto">Download the app</a>
+                    <div class="swiper-pagination"></div>
                 </div>
+
+                <a href="#" class="custom-btn mx-auto">Download the app</a>
             </section>
             <!-- How Works Area -->
 
@@ -225,7 +234,11 @@
                 <div class="container">
                     <div class="faq">
                         <div class="section-heading">
-                            <h2>Frequently asked questions</h2>
+                            <h2 class="desktop-faq-title">
+                                Frequently asked questions
+                            </h2>
+
+                            <h2 class="mobile-faq-title">FAQ</h2>
 
                             <p>
                                 We’re here to answer all your inquiries! Drop us
@@ -313,11 +326,10 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        Yes, Edible Landscapes is available for
+                                        both iOS and Android devices, ensuring
+                                        that you can access it on your preferred
+                                        platform.
                                     </p>
                                 </div>
                             </div>
@@ -341,11 +353,13 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        Our "Custom Garden Design" service
+                                        provides you with a personalized
+                                        landscape design that considers your
+                                        specific needs, space, climate, and
+                                        lifestyle. We even include a single
+                                        revision to ensure your garden design
+                                        aligns perfectly with your preferences.
                                     </p>
                                 </div>
                             </div>
@@ -368,11 +382,10 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        We take data privacy and security
+                                        seriously. For detailed information,
+                                        please read our terms of use, where we
+                                        explain how we protect your data.
                                     </p>
                                 </div>
                             </div>
@@ -396,11 +409,11 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        To get started, simply download the
+                                        Edible Landscapes mobile app from the
+                                        App Store (iOS). Follow the easy
+                                        onboarding process to set up your
+                                        account and begin using the app.
                                     </p>
                                 </div>
                             </div>
@@ -424,11 +437,14 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        We don't have garden maintenance
+                                        features in our app at the moment, but
+                                        we're excited to let you know that they
+                                        are coming soon. We're continually
+                                        working to enhance your gardening
+                                        experience, and you can look forward to
+                                        future updates that will include helpful
+                                        garden maintenance tools and resources.
                                     </p>
                                 </div>
                             </div>
@@ -451,11 +467,16 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        You can expect a single revision as part
+                                        of the custom garden design process. Our
+                                        dedicated landscapers are committed to
+                                        ensuring your satisfaction. We have a
+                                        simple and easy-to-use feedback system
+                                        that allows you to provide your input,
+                                        so you can get the results you want.
+                                        Your feedback is valuable in creating a
+                                        garden design that aligns perfectly with
+                                        your preferences.
                                     </p>
                                 </div>
                             </div>
@@ -478,11 +499,11 @@
 
                                 <div class="accordion__answer">
                                     <p>
-                                        Edible Landscapes is an innovative
-                                        gardening app that empowers you to
-                                        transform your lawn into a productive
-                                        and beautiful edible garden, all for as
-                                        little as $99.
+                                        We accept various payment methods,
+                                        including all major credit cards, Google
+                                        and Apple pay. You can choose the option
+                                        that best suits your needs during the
+                                        checkout process.
                                     </p>
                                 </div>
                             </div>
@@ -783,6 +804,7 @@
 
         <!-- JS CDN Links -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
         <script src="js/main.js"></script>
         <!-- JS CDN Links -->
     </body>
