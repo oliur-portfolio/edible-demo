@@ -443,4 +443,8 @@
         margin-top: 60px;
         gap: 60px;
     }
+
+    .input__style {
+        height: 60px;
+    }
 }
