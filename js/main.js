@@ -17,13 +17,18 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
         // when window width is >= 320px
         320: {
-            slidesPerView: 0.5,
-            spaceBetween: 50,
+            slidesPerView: 0.66,
+            spaceBetween: 40,
             centeredSlides: true,
         },
         400: {
+            slidesPerView: 0.75,
+            spaceBetween: 40,
+            centeredSlides: true,
+        },
+        500: {
             slidesPerView: 1,
-            spaceBetween: 50,
+            spaceBetween: 40,
             centeredSlides: true,
         },
         767: {
