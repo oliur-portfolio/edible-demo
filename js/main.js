@@ -15,38 +15,30 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     breakpoints: {
-        // when window width is >= 320px
         320: {
-            slidesPerView: 0.66,
-            spaceBetween: 40,
+            slidesPerView: 0.9,
             centeredSlides: true,
         },
         400: {
-            slidesPerView: 0.75,
-            spaceBetween: 40,
+            slidesPerView: 1,
             centeredSlides: true,
         },
         500: {
-            slidesPerView: 1,
-            spaceBetween: 40,
+            slidesPerView: 1.5,
             centeredSlides: true,
         },
         767: {
-            slidesPerView: 1.35,
-            spaceBetween: 50,
+            slidesPerView: 2.1,
         },
         991: {
-            slidesPerView: 1.9,
-            spaceBetween: 50,
+            slidesPerView: 2.9,
         },
-        // when window width is >= 480px
-        1200: {
-            slidesPerView: 2.7,
-            spaceBetween: 50,
+        1300: {
+            slidesPerView: 4,
         },
-        // when window width is >= 640px
         1750: {
             slidesPerView: 4,
+            spaceBetween: 30,
         },
     },
 });
