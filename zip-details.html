@@ -47,17 +47,19 @@
       <div class="container">
         <nav class="nav">
           <ul class="nav__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="/index.html#home">Home</a></li>
+            <li><a href="/index.html#faq">FAQ</a></li>
           </ul>
 
-          <a href="#" class="nav__logo">
+          <a href="/index.html" class="nav__logo">
             <img src="images/logo.svg" alt="logo" />
           </a>
 
-          <a href="#" class="custom-btn get-app-btn">Get the app</a>
+          <a
+            href="https://apps.apple.com/us/app/edible-landscapes/id6468971776"
+            class="custom-btn get-app-btn"
+            >Get the app</a
+          >
         </nav>
       </div>
     </header>
@@ -167,24 +169,26 @@
               </p>
             </div>
 
-            <form class="join-list__form">
+            <form
+              class="join-list__form"
+              method="post"
+              action=""
+              name="emaillist"
+              id="emaillist"
+            >
               <input
-                class="input__style"
+                class="input__style input__email"
                 type="email"
                 id="email"
                 name="email"
                 placeholder="enter email"
               />
+
+              <input type="hidden" name="timestamp" id="timestamp" value="" />
             </form>
           </div>
 
           <div class="footer__nav">
-            <ul class="footer__nav-links">
-              <li><a href="#">Get the App</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-
             <div class="footer__mission">
               <h3>Our Mission</h3>
 
@@ -196,7 +200,7 @@
 
               <ul class="footer__social-links">
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/gardening.apps/">
                     <img src="images/instagram.svg" alt="instagram" />
                   </a>
                 </li>

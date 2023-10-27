@@ -201,6 +201,11 @@ a:hover {
   border: 0;
 }
 
+.input__style.disable {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
 .container {
   max-width: 1720px;
   width: 100%;

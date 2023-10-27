@@ -43,21 +43,23 @@
 
   <body>
     <!-- Header Area -->
-    <header class="header">
+    <header id="home" class="header">
       <div class="container">
         <nav class="nav">
           <ul class="nav__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Locations</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
 
           <a href="#" class="nav__logo">
             <img src="images/logo.svg" alt="logo" />
           </a>
 
-          <a href="#" class="custom-btn get-app-btn">Get the app</a>
+          <a
+            href="https://apps.apple.com/us/app/edible-landscapes/id6468971776"
+            class="custom-btn get-app-btn"
+            >Get the app</a
+          >
         </nav>
       </div>
     </header>
@@ -85,7 +87,10 @@
 
               <p>Welcome to Edible Landscapes.</p>
 
-              <a href="#" class="app-btn">
+              <a
+                href="https://apps.apple.com/us/app/edible-landscapes/id6468971776"
+                class="app-btn"
+              >
                 <img src="images/app-store.svg" alt="app store" />
               </a>
             </div>
@@ -220,12 +225,16 @@
           <div class="swiper-pagination"></div>
         </div>
 
-        <a href="#" class="custom-btn mx-auto">Download the app</a>
+        <a
+          href="https://apps.apple.com/us/app/edible-landscapes/id6468971776"
+          class="custom-btn mx-auto"
+          >Download the app</a
+        >
       </section>
       <!-- How Works Area -->
 
       <!-- FAQ Area -->
-      <section class="faq-area">
+      <section id="faq" class="faq-area">
         <div class="container">
           <div class="faq">
             <div class="section-heading">
@@ -515,7 +524,11 @@
             </div>
           </div>
 
-          <a href="#" class="custom-btn mx-auto">Download the app</a>
+          <a
+            href="https://apps.apple.com/us/app/edible-landscapes/id6468971776"
+            class="custom-btn mx-auto"
+            >Download the app</a
+          >
         </div>
       </section>
       <!-- Gallery Area -->
@@ -546,7 +559,11 @@
                 </li>
               </ul>
 
-              <a href="#" class="custom-btn">Get started today</a>
+              <a
+                href="https://apps.apple.com/us/app/edible-landscapes/id6468971776"
+                class="custom-btn"
+                >Get started today</a
+              >
             </div>
 
             <div class="price__right">
@@ -632,7 +649,7 @@
             </div>
 
             <div class="programs__places">
-              <a href="#" class="programs__place">
+              <a href="/utah.html" class="programs__place">
                 <div class="programs__place-title">
                   <h3>Arizona</h3>
                 </div>
@@ -643,7 +660,7 @@
               <!-- Single Item -->
 
               <!-- Single Item -->
-              <a href="#" class="programs__place">
+              <a href="/utah.html" class="programs__place">
                 <div class="programs__place-title">
                   <h3>California</h3>
                 </div>
@@ -653,7 +670,7 @@
               <!-- Single Item -->
 
               <!-- Single Item -->
-              <a href="#" class="programs__place">
+              <a href="/utah.html" class="programs__place">
                 <div class="programs__place-title">
                   <h3>Utah</h3>
                 </div>
@@ -682,24 +699,26 @@
               </p>
             </div>
 
-            <form class="join-list__form">
+            <form
+              class="join-list__form"
+              method="post"
+              action=""
+              name="emaillist"
+              id="emaillist"
+            >
               <input
-                class="input__style"
+                class="input__style input__email"
                 type="email"
                 id="email"
                 name="email"
                 placeholder="enter email"
               />
+
+              <input type="hidden" name="timestamp" id="timestamp" value="" />
             </form>
           </div>
 
           <div class="footer__nav">
-            <ul class="footer__nav-links">
-              <li><a href="#">Get the App</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-
             <div class="footer__mission">
               <h3>Our Mission</h3>
 
@@ -711,7 +730,7 @@
 
               <ul class="footer__social-links">
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/gardening.apps/">
                     <img src="images/instagram.svg" alt="instagram" />
                   </a>
                 </li>
@@ -727,6 +746,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
+
     <!-- JS CDN Links -->
   </body>
 </html>
